@@ -7,3 +7,9 @@
 * Stop the deployment from creating more pods without delete the deployment
 * Exec into the pods
 * Expose the deployment
+* Follow this tutorials https://kubernetes.io/docs/concepts/services-networking/ingress/
+  * Goal is to be able to access 2048 game from the internet over a public IP
+
+* Check all K8s nodes health and status
+* Check all K8s nodes' labels
+* Let pods game-2048 only run on node test-cluster-7cz7fulwzgkx-node-0
