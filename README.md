@@ -13,3 +13,9 @@
 * Check all K8s nodes health and status
 * Check all K8s nodes' labels
 * Let pods game-2048 only run on node test-cluster-7cz7fulwzgkx-node-0
+
+* Create a configmap, mount that configmap as a file into the pod, check configmap content inside the pods via exec comman
+* Create a configmap, mount that configmap to pod as environment variables
+* Create a secret, mount as a file into the pod, check configmap content inside the pods via exec command
+* Create a secret, mount that secret to pod as environment variables
+* Create a persistent volume for pod with storageclass default
