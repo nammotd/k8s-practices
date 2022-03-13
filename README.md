@@ -19,3 +19,5 @@
 * Create a secret, mount as a file into the pod, check configmap content inside the pods via exec command
 * Create a secret, mount that secret to pod as environment variables
 * Create a persistent volume for pod with storageclass default
+
+* Change the pods' images without modifying the manifest
